@@ -21,10 +21,12 @@ gh-pages:
 	git reset HEAD
 	make html
 	mv -fv build/html/* ../
-rm -rf $(GH_PAGES_SOURCES) build _static _sources
+	rm -rf $(GH_PAGES_SOURCES) build _static _sources
+	cd ..
 	git add -A
 	git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" 
 	git push origin gh-pages
+	cd docs
 	git checkout master
 
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
