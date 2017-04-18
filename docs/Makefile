@@ -7,6 +7,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = JMCAgilentDAQ
 SOURCEDIR     = source
 BUILDDIR      = build
+GH_PAGES_SOURCES = source
 
 # Put it first so that "make" without argument is like "make help".
 help:
