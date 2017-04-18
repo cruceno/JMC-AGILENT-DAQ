@@ -21,7 +21,7 @@ gh-pages:
 	git reset HEAD
 	make html
 	mv -fv build/html/* ./
-	rm -rf $(GH_PAGES_SOURCES) build _static _sources
+	rm -rf $(GH_PAGES_SOURCES) build _sources
 	git add -A
 	git commit -m "Generated gh-pages for `git log master -1 --pretty=short --abbrev-commit`" 
 	git push origin gh-pages
