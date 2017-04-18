@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:51,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0},titles:["Welcome to JMC Agilent DAQ&#8217;s documentation!"],titleterms:{agil:0,daq:0,document:0,indic:0,jmc:0,tabl:0,welcom:0}})
