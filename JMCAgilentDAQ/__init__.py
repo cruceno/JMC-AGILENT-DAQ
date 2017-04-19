@@ -1,4 +1,4 @@
-import os, sys
+
 from time import sleep
 from . import gui as gui
 from . import instruments as instruments

@@ -4,8 +4,9 @@ Created on 6 abr. 2017
 
 @author: cruce
 '''
-
+import os, sys
 from gui.mainwindow import *
+
 # Manejo numerico de datos
 import numpy as np
 #Funcion para pasar datos como si fueran un archivo de texto
