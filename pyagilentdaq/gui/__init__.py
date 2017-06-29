@@ -1,2 +1,1 @@
-from .import mainwindow
-from . import splash
+from . import *

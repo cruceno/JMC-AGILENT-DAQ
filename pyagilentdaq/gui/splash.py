@@ -26,27 +26,27 @@ class SplashScreen(QSplashScreen):
         font.setBold(True)
         font.setItalic(True)
         self._title.setFont(font)
-        
+
         font=QFont('Exo 2')
         font.setPixelSize(16)
         font.setBold(False)
         font.setItalic(True)
         self.setFont(font)
-        
+
         self.progressBar = QProgressBar(self)
         self.progressBar.setGeometry(self.width()/10, 
                                      8*self.height()/10,
                                      8*self.width()/10,
                                      self.height()/30)
-        
+
     def setTitle(self,title):
 
         self._title.setText(title)
-            
+
     def moveTitle(self, x1, y1, w, h):
-        
+
         self._title.setGeometry(x1, y1, w, h)
-        
+
     def mousePressEvent(self, event):
         pass
 
