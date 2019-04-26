@@ -185,3 +185,11 @@ pip-selfcheck.json
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+Sera borrado .idea/JMC-AGILENT-DAQ.iml
+Sera borrado .idea/inspectionProfiles/
+Sera borrado .idea/misc.xml
+Sera borrado .idea/modules.xml
+Sera borrado .idea/serialmonitor_settings.xml
+Sera borrado .idea/vcs.xml
+Sera borrado requeriments.txt
+Sera borrado setup.py
